@@ -5,6 +5,7 @@ const Bulb = () => {
     const [light, setLight] = useState("OFF");
 
   console.log(light);
+
   return (
   <div>{light === "ON" ? (
   <h1 style={{backgroundColor: "orange"}}>ON</h1>
